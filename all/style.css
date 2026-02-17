@@ -1,9 +1,10 @@
-.hero-image.bg{
+/* .hero-image.bg{
     position: relative; 
     top: -40px;
     <i class="fa-regular fa-truck"></i>
     <i class="fa-regular fa-headphones"></i>
     <i class="fa-solid fa-shield-halved"></i>
     <i class="fa-solid fa-arrows-rotate"></i>
-
-}
+onclick="loadCategory(event)"
+} */
+ 

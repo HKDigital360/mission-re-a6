@@ -35,12 +35,13 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-     <li><a>Home</a></li>
+     <li><a  href="">Home</a></li>
         <li>
-       <a>Products</a>
+      <!-- <a onclick="loadCategory(event)" class="" href="#">Products</a> -->
+      <li><a onclick="redirectToProductPage()" href="product.html">Products</a></li>
         </li>
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
     </ul>
   </div>
   <div class="navbar-end px-30">
@@ -49,7 +50,11 @@
 </div>
         </nav>
     </header>
-
+     <!-- <div >
+  <h2 class="text-center text-2xl text-black font-bold py-10">Our Products</h2>
+ </div> -->
+ <main id="main-container">
+ 
     <section >
       <div class="hero ">
       <div class="hero-image relative w-full bg-[url('./Assets/banner-image.png')] bg-cover bg-position-[center_top_-200px] bg-no-repeat">
@@ -68,7 +73,7 @@
 </div>
 </div>
     </section>
-    <main>
+   
 
       <section class="bg-slate-200">
       <div class="px-35">
@@ -165,5 +170,6 @@
 </div>
    </footer>
    <script src="./mission.js"></script>
+   <script src="./product.js"></script>
 </body>
 </html>
